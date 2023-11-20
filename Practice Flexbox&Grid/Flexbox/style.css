@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: #E1C78F;
+  padding: 10px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item{
+  background-color: #D21312;
+  color: #fff;
+  font-size: 35px;
+  padding: 20px;
+  margin: 50px;
+  flex-grow: 1;
+}
+
+.grid{
+  background-color: #DADDB1;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 35px;
+}
